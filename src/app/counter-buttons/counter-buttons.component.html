@@ -2,13 +2,17 @@
   <div class="row">
     <div class="col-12">
       <div class="col-3">
-        <button class="btn btn-primary">Increment</button>
+        <button class="btn btn-primary" (click)="onIncrement()">
+          Increment
+        </button>
       </div>
       <div class="col-3">
-        <button class="btn btn-secondary">Decrement</button>
+        <button class="btn btn-secondary" (click)="onDecrement()">
+          Decrement
+        </button>
       </div>
       <div class="col-3">
-        <button class="btn btn-warning">Rest</button>
+        <button class="btn btn-warning" (click)="onReset()">Rest</button>
       </div>
     </div>
   </div>
