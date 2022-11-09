@@ -9,6 +9,7 @@ import { CounterOutputComponent } from './counter-output/counter-output.componen
 import { CounterButtonsComponent } from './counter-buttons/counter-buttons.component';
 import { StoreModule } from '@ngrx/store';
 import { counterReducer } from './state/counter.reducers';
+import { CounterInputComponent } from './counter-input/counter-input.component';
 
 @NgModule({
   imports: [
@@ -22,6 +23,7 @@ import { counterReducer } from './state/counter.reducers';
     CounterComponent,
     CounterOutputComponent,
     CounterButtonsComponent,
+    CounterInputComponent
   ],
   bootstrap: [AppComponent],
 })
