@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  margin-top: 20px;
+}
+.parent {
+  width: 85%;
+  padding: 10px 10px;
+  text-align: center;
+}
+.btn {
+  cursor: pointer;
+}
+.btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
